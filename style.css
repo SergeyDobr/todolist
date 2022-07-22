@@ -1,0 +1,64 @@
+body {
+   background-color: rgb(172, 180, 164);
+   width: 400px;
+   margin: 0 auto;
+   padding: 100px 20px 0;
+}
+
+h1 {
+   color: rgb(147, 44, 44);
+}
+
+.header-content {
+   display: flex;
+   justify-content: space-between;
+}
+
+.textInput:focus {
+   border: 0;
+   outline: none;
+   font-size: 16px;
+   color: #b1a884;
+}
+
+.done {
+   text-decoration: line-through;
+}
+
+.textInput {
+   box-sizing: border-box;
+   width: 70%;
+   padding: 10px 20px;
+   margin-right: 10px;
+}
+
+.textInput::first-letter {
+   text-transform: uppercase;
+}
+
+.addButton {
+   box-sizing: border-box;
+   padding: 10px 20px;
+   background: #ffcc00;
+   width: 30%;
+}
+
+.listItem {
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 20px;
+   margin-bottom: 5px;
+}
+
+button {
+   background: red;
+   color: #fff;
+   padding: 5px 10px;
+   width: 30%;
+}
+
+#toDoList {
+   padding-left: 0;
+}
