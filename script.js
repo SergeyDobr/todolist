@@ -36,7 +36,7 @@ function createAndDeleteElem(value) {
    divDiv.prepend(inputCheck);
 
    inputCheck.addEventListener('click', (e) => {
-      li.classList.toggle('done')
+      divDiv.classList.toggle('done')
    })
 }
 
